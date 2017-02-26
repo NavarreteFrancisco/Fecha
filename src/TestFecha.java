@@ -1,6 +1,5 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
+
 
 
 public class TestFecha {
@@ -22,5 +21,6 @@ public class TestFecha {
 			System.out.println("La fecha: " + dia + "/" + mes + "/" + anyo
 					+ " NO es válida");
 		}
+		
 	}
 }
